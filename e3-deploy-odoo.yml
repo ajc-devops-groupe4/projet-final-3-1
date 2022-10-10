@@ -32,7 +32,7 @@ spec:
         - name: odoo-persistent-storage
           mountPath: /var/lib/odoo
       containers:
-      - image: odoo:15
+      - image: odoo:13
         name: odoo
         env:
         - name: USER
